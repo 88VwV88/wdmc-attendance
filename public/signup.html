@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <title>signup</title>
+</head>
+<body>
+    <header width="100%">
+        <h1>WDMC Attendance</h1>
+        <h2>SignUp</h2>
+    </header>
+    <main>
+        <form action="/signup" method="post" id="signup-form" class="form">
+            <div class="form-entry">
+                <label for="fname">First Name *</label>
+                <input name="fname" id="fname" type="text" placeholder="" />
+            </div>
+            <div class="form-entry">
+                <label for="lname">Last Name</label>
+                <input name="lname" id="lname" type="text" placeholder="" />
+            </div>
+            <div class="form-entry">
+                <label for="email">Email Address *</label>
+                <input name="email" id="email" type="email" placeholder="abc@example" />
+            </div>
+            <div class="form-entry">
+                <label for="password">password *</label>
+                <input name="password" id="password" type="password" placeholder="at least 8 characters" />
+            </div>
+            <div class="form-entry">
+                <label for="age">age</label>
+                <input name="age" type="number" />
+            </div>
+            <button id="submit-btn" type="submit" class="btn">submit</button>
+        </form>
+        <p>
+            Already a member <a href="login.html">login</a> instead.
+        </p>
+    </main>
+</body>
+</html>

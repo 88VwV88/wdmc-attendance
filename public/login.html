@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <title>login</title>
+</head>
+<body>
+    <header width="100%">
+        <h1>WDMC Attendance</h1>
+        <h2>Login</h2>
+    </header>
+    <main>
+        <form action="/login" method="post" id="login-form" class="form">
+            <div class="form-entry">
+                <label for="email">Email Address *</label>
+                <input name="email" id="email" type="email" placeholder="abc@example" />
+            </div>
+            <div class="form-entry">
+                <label for="password">password *</label>
+                <input name="password" id="password" type="password" placeholder="at least 8 characters" />
+            </div>
+            <button id="submit-btn" type="submit" class="btn">submit</button>
+        </form>
+        <p>
+            Not registered yet? <a href="signup.html">signup</a> instead.
+        </p>
+    </main>
+</body>
+</html>
